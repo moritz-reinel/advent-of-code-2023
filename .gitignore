@@ -3,4 +3,5 @@
 input_test.txt
 input.txt
 
+bin/
 *.class
