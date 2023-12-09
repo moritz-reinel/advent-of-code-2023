@@ -1,19 +1,13 @@
 import java.io.*;
+import java.nio.file.*;
 import java.util.*;
 
 public class Part1
 {
-    public static void main(String[] args) throws FileNotFoundException
+    public static void main(String[] args) throws IOException
     {
-        Scanner scanner = new Scanner(new File("input_test.txt"));
-        while (scanner.hasNextLine()) {
-            String line = scanner.nextLine();
-        }
+        String content = Files.readString(Path.of("input.txt")).strip();
 
-        scanner.close();
-    }
-
-    private record Data (){
-
+        
     }
 }
