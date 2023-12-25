@@ -5,3 +5,4 @@ input.txt
 
 bin/
 *.class
+*.jar
